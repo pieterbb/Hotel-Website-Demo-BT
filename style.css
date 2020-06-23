@@ -1,0 +1,116 @@
+/* Insert body backgroudn */
+
+
+
+
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* General Styling */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-primary{
+    padding: 20px 30px;
+    color: #fff;
+    background: #252a34;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+}
+
+.btn-primary:hover{
+    background-color: #ff2e63;
+}
+
+.primary-color-accent{
+    color: #ff2e63;
+}
+
+/* Navbar */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #252a34;
+    color: #fff;
+}
+
+/* Logo Container */
+
+.logo-container{
+    padding: 20px 20px;
+}
+
+/* Menu items */
+.menu-container ul{
+    display: flex;
+}
+.menu-container li{
+    padding: 20px 20px;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+    
+}
+.menu-container li:hover{
+    background: #ff2e63;
+}
+
+/* Active Page Menu item */
+.menu-container .current-page{
+    background: #ff2e63;
+}
+
+
+/* Hero */
+.hero-container{
+    background: url('./img/test-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.hero-content h2{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.hero-content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+
+.row-1{
+
+}
+
+.row-2{
+background: #252a34;
+}
+
+/* Footer */
