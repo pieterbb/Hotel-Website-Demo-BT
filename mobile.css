@@ -1,0 +1,7 @@
+
+/* Icon blue bg to full width */
+@media (max-width: 768px) {
+  .icon-container .row-2 {
+    min-width: 100%;
+  }
+}
