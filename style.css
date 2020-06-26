@@ -115,12 +115,14 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: 100%;
   height: 100%;
+  padding: 2rem;
 }
 
 .hero-content h2 {
-  font-size: 6rem;
+  font-size: 3rem;
 }
 
 .hero-content p {
@@ -132,27 +134,30 @@ a {
 
 .info-container {
   display: flex;
+  flex-wrap: wrap;
   height: 500px;
-  align-items: flex-start;
 }
 
 .info-container .row-1 {
-  width: 50%;
-  height: 100%;
   background: url(./img/photo-1.jpg) no-repeat center center/cover;
+  height: 100%;
+  width: 50%;
+  min-width: 350px;
+  flex: 1;
 }
 
 .info-container .row-2 {
   height: 100%;
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 350px;
   background: #252a34;
   padding: 5%;
   text-align: center;
   color: #fff;
+  flex: 1;
 }
 
 .info-container .row-2 h2 {
@@ -175,6 +180,7 @@ a {
   color: #fff;
   background-color: #08d9d6;
 }
+
 
 /* Ammenities */
 
@@ -201,8 +207,6 @@ a {
   background: #08d9d6;
 }
 
-
-
 .icon-container i,
 .icon-container p,
 .icon-container h2 {
@@ -223,7 +227,7 @@ a {
 }
 
 .about-container .column-1 {
-  width: 25%;
+  width: 40%;
   padding: 20px;
 }
 
@@ -236,7 +240,7 @@ a {
   margin-bottom: 20px;
 }
 .about-container .column-2 {
-  width: 25%;
+  width: 40%;
   padding: 20px;
   border-radius: 9999px;
 }
@@ -285,7 +289,7 @@ a {
   padding: 20px;
   border-radius: 5px;
   line-height: 1.5rem;
-  width: 50%;
+  width: 50vw;
 }
 
 .testimonial-container h2 {
